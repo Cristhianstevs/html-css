@@ -10,15 +10,24 @@
         }
         body {
             height: 100vh;
+            /*
             background-color: darkgrey;
             background-image: url(img/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            Shorthand Background
+
+            color > Image > Position > Repeat > [Size] > Attachment
+            */
+            background: darkgrey url(img/wallpaper002.jpg) center center no-repeat fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;
+            max-width: 500px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
