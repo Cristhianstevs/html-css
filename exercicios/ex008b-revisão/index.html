@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão</title>
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+</head>
+<body>
+        <H1>Revisão do Conteúdo</H1>
+    
+        <h2>Lembretes</h2>
+    <p>Os símbulos "&lt; &gt;" se chamam tags.</p>
+    <p>Use letras minúsculas em nomes de arquivos</p>
+    <p>Quando quiser colocar um texto ou um comando em uma tag, existe um atalho no qual você seleciona o texto ou palavra e aperta "Ctrl" + "Shift" + "P", aparecendo uma barra de pesquisa digite "abb" e selecione a opção "wrap with abbreviation" agora escreva a tag na qual o texto ou palavra que selecionou ficará entre</p>
+   
+        <h2>Títulos e subtítulos</h2>
+    <p>Para criar títulos use a tag "h1", consequentemente, usando "h2" e "h3" podem ser criados subtítulos.<br>As tags "h" podem chegar até "h6" mas geralmente não é utilizado, alguns exemplos:</p>
+    <H1>&lt;H1&gt;</H1>
+    <H2>&lt;H2&gt;</H2>
+    <H3>&lt;H3&gt;</H3>
+    
+        <h2>parágrafos</h2>
+    <p>Para se criar parágrafos em html usa-se a tag "p". São textos com um tamanho comum, exemplo:</p>
+    <p>"Esse texto foi escrito usando a tag p"</p>
+    <p>É possivel quebrar o parágrafo usando a tag "br" dentro do parágrafo, por exemplo:</p>
+    <p>Esse texto poderia estar todo aqui <br>Mas quis continuar na linha de baixo</p>
+    
+        <h2>Colocando emojis</h2>
+    <p>Para colocar emojis em html primeiro precisa achar um desejado, vá a um site chamado "<a href="https://emojipedia.org" target="_blank" rel="external">Emojipedia</a>".<br>Encontre o "Codepoints" e copie apenas o que está depois do "U+" <br>Para colocar no site escreva "&#x" e cole o código. Por exemplo:</p>
+    <p>&#x1F60A &#x1F5A5 &#x1F4F1 &#x1F525</p>
+    
+
+        <h2>Inserindo imagens</h2>
+    <p>Para colocar uma imagem no seu site, primeiro ascolha uma imagem adequada e lembre de que ela precisa ser livre para uso, após escolher uma imagem livre, redefina a imagem para ter um tamanho adequado para o site, caso seja muito grande pode deixar o site lento. Jogue a imagem dentro da pasta na qual está o seu código. <br>Escreva "img" e dê enter, criando a tag "img" vai aparecer "src=" e "alt=", dentro das aspas de "src=" aperte Ctrl + Espaço, vai abrir um atalho dentro da pasta do seu código, agora selecione a imagem que colocou lá. Exemplo:</p>
+    <img src="Just for the Thrill(2).jpg" alt="Capa de álbum">
+
+        <h2>Favicon</h2>
+    <p>Para colocar um ícone no seu site primeiro escolha dentre vários na internet, lembre que precisa ser no formato ".ico". Coloque o arquivo dentro da pasta na qual está seu código. <br>Em "Head" escreva "link:favicon" e dê enter, apague o termo "favicon.ico" e dentro dessas aspas aperte Ctrl + Espaço, abrindo um atalho para a pasta na qual foi colocado o ícone e selecione o arquivo ".ico".</p>
+
+        <h2>Formatação de texto</h2>
+    <p>existem formas certas na semântica em html, futuramente algumas tags podem ficar absoletas.</p>
+    <h3>Negrito (strong)</h3>
+    <p>Para usar o negrito da forma correta usa-se a tag "strong" substituindo a tag "b", por exemplo:</p>
+    <p>Agora estou usando a tag <strong>strong</strong> e agora a tag <b>b</b>. <br>preceba que as duas cumprem seu papel de deixar em negrito mas a forma correta na semântica é a "strong".</p>
+    <h3>Itálico (em)</h3>
+    <p>Para usar o itálico da forma correta usa-se a tag "em" substituindo a tag "i", por exemplo:</p>
+    <p>Agora estou usando a tag <em>em</em> e agora a tag <i>i</i>. <br>preceba que as duas cumprem seu papel de deixar em itálico mas a forma correta na semântica é a "em".</p>
+    <h3>Sublinhado (ins)</h3>
+    <p>Para usar o sublinhado da forma correta usa-se a tag "ins" substituindo a tag "u", por exemplo:</p>
+    <p>Agora estou usando a tag <ins>ins</ins> e agora a tag <u>u</u>. <br>preceba que as duas cumprem seu papel de deixar em itálico mas a forma correta na semântica é a "ins".</p>
+    <h3>Riscado (del)</h3>
+    <p>Para usar o riscado da forma correta usa-se a tag "del" substituindo a tag "s", por exemplo:</p>
+    <p>Agora estou usando a tag <del>del</del> e agora a tag <s>s</s>. <br>preceba que as duas cumprem seu papel de deixar em riscado mas a forma correta na semântica é a "del".</p>
+    <h3>Marcado (mark + style)</h3>
+    <p>Para deixar um texto marcado usa-se a tag "mark", por exemplo:</p>
+    <p>Agora estou usando a tag <mark>mark</mark>. <br>Ela só fica amarela porque é uma tag de significado, para deixar colorido use css.</p>
+    <p>Para trocarmos a cor podemos usar uma ferramenta da css que é "style". <br>Dentro da tag "mark" dê um espaço e digite "style", após dar Enter será criado um "=" e umas aspas. Dentro das aspas digite "background-color", agora selecione ou escreva a cor desejada. Exemplo:</p>
+    <p>Agora estou usando a tag <mark style="background-color:darkblue ;">mark</mark> com a ferramenta "style" da css.</p>
+    <p>Cado tenha muitas tags "mark" e queira colorir todas, existe uma solução. Dentro de "head" crie uma tag "style", digite "mark{}", dentro de "{}" digite "background-color" e escolha ou escreva uma cor desejada.</p>
+    <h3>Texto grande e pequeno (big e small)</h3>
+    <p>Para usar textos grandes usa-se a tag "big" e para textos pequenos usa-se a tag "small", por exemplo:</p>
+    <p>Agora estou usando a tag <big>big</big>, e agora estou usando a tag <small>small</small>.</p>
+    <h3>Texto sobrescrito e subscrito (sup e sob)</h3>
+    <p>Para usar textos escritos acima usa-se a tag "sup" e para textos escritos abaixo a tag "sub", por exemplo:</p>
+    <p>Agora estou usando a tag <sup>sup</sup> e agora a tag <sub>sub</sub>.</p>
+    <h3>Aspas</h3>
+    <p>Para usar aspas em seu texto pode-se usar a tag "q", por exemplo:</p>
+    <p>Agora estou usando a tag <q>q</q>. <br>Essa tag gera sentido no texto sendo melhor usar ela do que as próprias aspas.</p>
+    <h3>Letras com mesmo tamanho (code)</h3>
+    <p>Para usar letras do mesmo tamanho usa-se a tag "code", por exemplo:</p>
+    <p>Agora estou usando a tag <code>code</code>. <br>Comparando o alfabeto com a tag code: <br> <code>abcdefghijklmnopqrstuvwxyz</code> <br> e sem a tag code: <br> abcdefghijklmnopqrstuvwxyz</p>
+    <h3>Texto indentado</h3>
+    <p>Para usar a identação no texto usa-se a tag "pre", por exemplo:</p>
+<pre><p>Agora estou usando a tag p
+                          r
+                           e
+    </pre></p>
+</body>
+</html>
