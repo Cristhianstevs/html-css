@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+body {
+    min-height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 180px;
+    color: white;
+}
+header #titulo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+header #titulo h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+main section {
+    padding: 30px;
+}
+main section p {
+    line-height: 2em;
+    padding: 10px 0;
+}
+main #img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+}
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
