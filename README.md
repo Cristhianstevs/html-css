@@ -77,3 +77,5 @@ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 <a href="exercicios/ex022/fundo005.html">Execício 022e</a>
 <br>
 <a href="exercicios/ex022/fundo006.html">Execício 022f</a>
+<br>
+<a href="exercicios/ex022/fundo007.html">Execício 022g</a>
