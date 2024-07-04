@@ -37,13 +37,27 @@ main section {
 }
 main section p {
     line-height: 2em;
-    padding: 10px 0;
+    padding: 10px 0 10px 10px;
 }
 main #img01 {
     background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+main #img02 {
+    background-image: url(../imagens/background002.jpg);
+}
+main .imagem {
     background-size: cover;
-    background-position: left center;
     background-attachment: fixed;
+}
+main .imagem p {
+    background-color: #00000080;
+    padding: 10px 0 10px 10px;
+    color: white;
+    width: 200px;
+}
+main .normal {
+    box-shadow: 0 0 15px 0 black;
 }
 footer {
     background-color: black;
