@@ -9,24 +9,44 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table {
-            padding: 0;
-            margin: 0;
+            position: relative;
             border-collapse: collapse;
+            margin: 0;
+            padding: 0;
+        }
+        caption {
+            font-size: 1.1em;
+            font-weight: bolder;
+        }
+        thead {
+            position: sticky;
+            top: 0;
+        }
+
+        thead, tfoot {
+            background-color: #a7a7a7;
+            font-weight: bolder;
+        }
+        tbody tr:nth-child(odd) {
+            /**
+                ODD - Todos os impares
+                EVEN - Todos os pares
+                2N - Pular de 2 em 2
+                3N - Pular de 3 em 3
+            **/
+            background-color: #ebebeb;
         }
         td, th {
             border: 1px solid black;
+            height: 30px;
             padding: 5px;
             width: 100px;
-            height: 50px;
+        }
+        .colp {
+            width: 300px;
         }
         .num01 {
             text-align: right;
-        }
-        th {
-            background-color: #c4c4c4;
-        }
-        tfoot {
-            font-weight: bolder;
         }
     </style>
 </head>
@@ -35,6 +55,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -43,10 +64,13 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>
+            <p>População das Unidades Federativas</p>
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th class="colp" scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -161,9 +185,9 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>Total de habitantes</td>
+                <th scope="row">Total de habitantes</th>
                 <td class="num01">203 062 512</td>
-        </tr>
+            </tr>
         </tfoot>
     </table>
 </body>
