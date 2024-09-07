@@ -1,0 +1,22 @@
+links
+Python
+https://youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6&si=Uqt1B-ELQQxZm-_J
+
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/S9uPNppGsGo?si=LEoccEspo0IHYyol" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+javascript
+https://youtube.com/playlist?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&si=jqTCpsAj7Y6g2WN1
+
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/1-w1RfGIov4?si=wM5Fy6OiKIJyZFsV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+hardware
+https://youtube.com/playlist?list=PLHz_AreHm4dn1JHgN9wpbIUhzZmycYQXW&si=VWPrKJmg4_WxXm0_
+
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/iT6E92Kt38o?si=zpxSBLM-eMYoElgq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+html5
+https://youtube.com/playlist?list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o&si=klzxxQ2iDdhpHyFb
+
+- <iframe width="560" height="315" src="https://www.youtube.com/embed/epDCjksKMok?si=h2ToA8ulJBLdC-sj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+

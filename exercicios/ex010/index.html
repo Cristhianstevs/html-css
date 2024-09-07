@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+    <link rel="shortcut icon" href="link ico.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Usando links externos</h1>
+    <p>Para anexar um link a algum termo em html usa-se a tag <q>a</q>. <br>Para facilitar pode pegar um termo do texto, selecionar e apertar <q>Ctrl</q> + <q>Shift</q> + <q>p</q>, clicar em <q>Wrap with abbreviation</q> e colocar a tag <q>a</q> nele.</p>
+    <p>Você pode acessar o <a href="https://gustavoguanabara.github.io" target="_blank" rel="external">repositório do Gustavo</a>.</p>
+    <p>Você também pode acessar o canal dele no YouTube. apenas clique <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">aqui</a>.</p>
+    <p>Para abrir o link em outra aba usa-se o comando <q>target</q> criando <q>target=""</q>, dentro das aspas escreva <q>_blank</q>.</p>
+    <p>Curiosidade: Quando quiser entar em um link abrindo em uma nova janela, clique no link com o botão do Scroll do mouse.</p>
+    <h1>Usando links internos</h1>
+    <p>É possivel criar links internos. Criando mais um arquivo <q>.htlm</q> pode anexar em <q>href</q> com <q>Ctrl</q> + <q>Espaço</q>.</p>
+    <p>Esta é a primeira página do site. <br> Você pode ir também para a <a href="pag002.html" target="_self" rel="next">segunda página</a>.</p>
+    <p>Esta segunda página foi criada dentro da mesma pasta do <q>index</q>.</p>
+    <p>É possivel também criar links em arquivos dentro de pastas. Para colocar esse link é precido mencionar a pasta em que ele está.</p>
+    <p>Você também pode acessar a <a href="noticias/pag003.html" target="_self" rel="next">página de notícias</a>.</p>
+    <p>Querendo voltar para a primeira página é preciso escrever <q>../</q> antes do nome do arquivo, isso indica que deve voltar a pasta anterior para que está o arquivo do link atual.</p>
+    <h1>Liks para download</h1>
+    <ul>
+        <li><a href="livro/10 - Ligações em toda parte.pdf" type="application/zip">Link para baixar em PDF</a></li>
+        <li><a href="livro/10 - Ligações em toda parte.zip" download="10 - Ligações em toda parte" type="application.zip"> Link para baixar em arquivo ZIP</a></li>
+    </ul>
+    <h2>Rel</h2>
+    <p>(rel="") <br>O rel é uma questão de semântica para saber do que se trata esse link. Existe quatro tipos de rel, são eles:</p>
+    <ul>
+        <li><strong>next</strong> (próxima parte do documento atual)</li>
+        <li><strong>prev</strong> (parte anterior do documento atual)</li>
+        <li><strong>author</strong> (site do autor do artigo atual)</li>
+        <li><strong>external</strong> (site que não faz parte do site)</li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/**/
+
+body {
+    font-family: arial;
+    background-color:darkslategray;
+    font-size: small;
+}
+h1 {
+    color: aquamarine;
+}
+h2 {
+    color: brown;
+}
+p {
+    text-align: justify;
+}

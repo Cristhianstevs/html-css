@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <link rel="shortcut icon" href="iconelista.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas (ol)</h2>
+    <p>Essas listas geralmente são numeradas como padrão, isso acontece porque recebem uma ordem específica para serem seguidas, podem ser organizadas de diversar formas, como números romanos ou até mesmo letras. Para utilizar esse tipo de lista usa-se a tag <q>ol</q>. <br>Para criar as linhas de uma lista usa-se a tag <q>li</q>. <br>Para mudar o tipo de numeração escreva <q>type=""</q> dentro da tag <q>ol</q>, nas aspas escreva:</p> 
+    <p>1 => Numeração <br>A => Letras maiúsculas <br>a => Letras minúsculas <br>I => Números romanos maiúsculas <br>i => Números romanos minúsculas</p>
+    <ol type="1"> <!--(1, A, a, I, i)-->
+        <li>Acordar</li>
+        <li>Ligar para joão</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar pra casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas (ul)</h2>
+    <p>Essas listas não são necessariamente organizadas podendo ser colocadas em qualquer ordem. Esse tipo de lista usa símbulos para organizar. <br>Para utilizar esse tipo de lista usa-se a tag <q>ul</q>. <br>Para mudar o tipo de numeração escreva <q>type=""</q> dentro da tag <q>ul</q>, nas aspas escreva:</p> 
+    <p>disc => Círculo padrão <br>circle => Círculo aberto <br>square => Quadrado</p>
+    <ul type="disc"> <!--(disc, circle, square)-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <p>É possivel criar listas dentro de listas usando as tags logo após a linha. Exemplo:</p>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Nintendo Switch</li>
+        <ul type="disc">
+            <li>The Legend of Zelda</li>
+            <ul>
+                <li>Tears of the Kingdon</li>
+                <li>Breath of The Wild</li>
+                <li>Skyward Sword</li>
+                <li>Link's Awakening</li>
+            </ul>
+            <li>Mario</li>
+            <ul>
+                <li>Mario Kart 8 Deluxe</li>
+                <li>Super Mario Odssey</li>
+                <li>New Super Mario Bros.U Deluxe</li>
+            </ul>
+            <li>Super Smash Bros Ultimate</li>
+        </ul>
+        <li>Xbox One</li>
+        <ul type="disc">
+            <li>Forza Horizon 5</li>
+            <li>Forza Horizon 4</li>
+            <li>Gang Beasts</li>
+            <li>Fifa 22</li>
+            <li>F1 23</li>
+            <li>Rayman Legends</li>
+        </ul>
+        <li>PlayStation 4</li>
+        <ul type="disc">
+            <li>Spider Man</li>
+            <li>Horizon Zero Down</li>
+            <li>Uncharted 4</li>
+            <li>Grand Turismo 7</li>
+            <li>Crash Bandicoot N.Sane Trilogy</li>
+            <li>Read Dead Redemption 2</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML (termo)</dt>
+        <dd>Linguadem de marcação para a criação do conteúdo de um site.(descrição)</dd>
+        <dt>CSS (termo)</dt>
+        <dd>Linguagem de marcação para a criação de design de um site.</dd>
+        <dt>JavaScript (termo)</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site. (descrição)</dd>
+    </dl>
+</body>
+</html>
